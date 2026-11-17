@@ -1,0 +1,11 @@
+--- ./myapp.c	2026-11-17 03:09:43.501600804 +0200
++++ ./mynewapp.c	2026-11-17 03:24:36.048872951 +0200
+@@ -4,7 +4,7 @@
+ 
+ static int __init myapp_init(void)
+ {
+-    printk(KERN_INFO "MYAPP: HI!\n");
++    printk(KERN_INFO "MYAPP: HELLOW YOU !\n");
+     return 0;
+ }
+ 
